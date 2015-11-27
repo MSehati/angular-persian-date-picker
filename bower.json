@@ -4,12 +4,7 @@
     "Motahare Sehati"
   ],
   "description": "a directive to crate persian date picker element",
-  "main": "",
-  "directories": {
-    "example": "example",
-	"src":"src",
-	"style":"style"
-  }
+  "main": "example/example.js",
   "moduleType": [],
   "license": "MIT",
   "homepage": "",
