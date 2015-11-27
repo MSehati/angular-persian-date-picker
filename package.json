@@ -1,0 +1,19 @@
+{
+  "name": "angular-persian-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Motahare Sehati",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "express": "^4.13.3",
+    "mustache": "^2.2.0"
+  }
+}

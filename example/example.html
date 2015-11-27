@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--angular and bootstrap -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css">
+<script src="../bower_components/bootbox.js/bootbox.js"></script>
+
+<!--persian date picker js and css files -->
+<link rel="stylesheet" href="../style/PersianDatePicker.min.css">
+<link rel="stylesheet" href="../style/rightPersianDatePicker.css">
+<script src="../src/jalali.js"></script>
+<script src="../src/PersianDatePicker.js"></script>
+<script src="../src/PersianDateDirective.js"></script>
+
+<script src="../example/example.js"> </script>
+
+</head>
+<body ng-app="ExampleApp" ng-controller="ExampleController" style="padding:20px">
+
+<div class="row">
+<div class="col-md-3">
+<persian-date-picker ng-model="obj.persianDate" ></persian-date-picker>
+ </div>
+<div class="col-md-3"> 
+Selected Date : {{obj.persianDate}}   
+</div>
+</div>
+
+<div class="row rtl" style=" width: 100%;">
+<div class="col-md-3" >
+<persian-date-picker ng-model="obj.persianDate" ></persian-date-picker>
+ </div>
+<div class="col-md-3"> 
+Selected Date : {{obj.persianDate}}   
+</div>
+</div>
+
+</body>
+</html>
