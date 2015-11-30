@@ -31,3 +31,9 @@ var app =  angular.module('ExampleApp', ['PersianDatePickerApp']);
 ````html 
 <persian-date-picker ng-model="obj.persianDate" ></persian-date-picker>
 ````
+
+About
+-----
+* this directive use a jquery persian date pickert created by Rahmat Rezaei (Rahmat.Rezaei@yahoo.com).
+* this directive is created by Mohsen Mahmodi Hashemi.
+
