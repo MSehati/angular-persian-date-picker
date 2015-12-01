@@ -3,6 +3,7 @@ Angular Persian Date Picker
 angular persian date picker is a directive that let irainian users select persian date from calender.
 
 See demo:
+http://jsbin.com/muceropela/edit?html,output
 
 Installation
 ------------
