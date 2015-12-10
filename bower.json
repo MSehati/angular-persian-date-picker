@@ -3,6 +3,7 @@
   "authors": [
     "Motahare Sehati"
   ],
+  "version": "0.1.0",
   "description": "a directive to crate persian date picker element",
   "main": "example/example.js",
   "moduleType": [],
