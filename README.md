@@ -14,13 +14,10 @@ bower install angular-persian-date-picker
 Usage
 -----
 
-* Refrence to these files after angular,bootstrap,font awesome and bootbox (minified css and js files will be added to this package soon)
+* Refrence to below files after angular,bootstrap,font awesome and bootbox 
 ````html 
-<link rel="stylesheet" href="bower_component/angularPersianDate/style/PersianDatePicker.min.css">
-<link rel="stylesheet" href="bower_component/angularPersianDate/style/rightPersianDatePicker.css">
-<script src="bower_component/angularPersianDate/src/jalali.js"></script>
-<script src="bower_component/angularPersianDate/src/PersianDatePicker.js"></script>
-<script src="bower_component/angularPersianDate/src/PersianDateDirective.js"></script>
+<link rel="stylesheet" href="bower_component/angularPersianDate/dist/PersianDatePicker.min.css">
+<script src="bower_component/angularPersianDate/dist/PersianDatePicker.js"></script>
 ````
 
 * Include module 'PersianDatePickerApp' in your app/module
