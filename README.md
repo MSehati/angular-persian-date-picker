@@ -33,5 +33,5 @@ var app =  angular.module('ExampleApp', ['PersianDatePickerApp']);
 About
 -----
 * this directive use a jquery persian date pickert created by Rahmat Rezaei (Rahmat.Rezaei@yahoo.com).
-* this directive is created by Mohsen Mahmodi Hashemi.
+* this directive is created by [Mohsen Mahmodi Hashemi](https://www.linkedin.com/in/mohsen-hashemi-47694278?authType=name&authToken=IJKJ&trk=contacts-contacts-list-contact_name-0)
 
